@@ -1,0 +1,283 @@
+.Register,
+.login {
+    height: 40px;
+    width: 130px;
+
+}
+.logo{
+    position: relative;
+    left: 80px;
+}
+
+.login {
+    background-color: transparent;
+    color: hsla(204, 97%, 54%, 1);
+}
+
+.con {
+    position: relative;
+    right: 80px;
+}
+
+.men {
+    position: relative;
+    left: 606px;
+}
+
+/* ********************************** */
+
+.hed-img img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+.JoinToday{
+    width: 192px;
+    height: 52px;
+    position: relative;
+    
+}
+.text{
+    font-size: 56px;
+    /* background-color: red; */
+    color: white;
+    width: 1392px;
+    text-align: center;
+    position: relative;
+    right: 600px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.box-val{
+    position: relative;
+    width: 192px;
+    height: 52px;
+    bottom: 300px;
+    
+}
+/* .cont-info .left{
+    background-color: red;
+}
+.cont-info .right{
+    background-color: rgb(161, 56, 56);
+} */
+.cont-info{
+    /* position: relative; */
+    /* left: 230px; */
+    /* background-color: red;    */
+    width: 100%;
+    height: 800px;
+    position: relative;
+    top: 120px;
+}
+.info-hed{
+    font-size: 48px;
+    width: 720px;
+    position: relative;
+    right: 160px;
+}
+.card-text{
+    font-size: 18px;
+}
+.row div{
+    padding: 0px;
+    width: 600px;
+    /* background-color: red; */
+}
+.box-row{
+    position: relative;
+    right: 160px;
+
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 50px;
+    column-gap: 400px;
+    /* padding: 0px; */
+}
+.card-title{
+    font-size: 24px;
+}
+
+.box-100{
+    background-color: rgb(218, 218, 218);
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 120px;
+}
+
+/* ********************** */
+
+.head-abour{
+    position: relative;
+    top: 280px;
+    width: 100%;
+    height: 1282px;
+    /* text-align: center; */
+}
+.h2-bio{
+    font-size: 36px;
+    /* background-color: red; */
+    color:  hsla(0, 0%, 26%, 0.8);
+    text-align: center;
+
+    
+}
+.h1-hed{
+    font-size: 48px;
+    text-align: center;
+}
+.img-About{
+    width: 830px;
+    height: 740px;
+    position: relative;
+    left: 50px;
+}
+.left{
+    /* background-color: red; */
+}
+
+.right{
+    /* background-color: aqua; */
+}
+
+.grit{
+    display: grid;
+    grid-template-columns: auto ;
+    gap: 100px;
+    column-gap: 40px;
+    position: relative;
+    top: 100px;
+    right: 130px;
+}
+
+/* ********************** */
+.card-body{
+    height: 226px;
+}
+.card-text-hed{
+    font-size: 30px;
+    text-align: center;
+}
+.bi{
+    position: relative;
+    left: 15px;
+    font-size: 20px
+}
+.service{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 84px;
+    /* column-gap: 40px; */
+    position: relative;
+    right: 70px;
+}
+/* ****************************** */
+.Login{
+    width: 100%;
+    height: 860px;
+    border:  hsla(204, 97%, 54%, 1);
+}
+
+.log-h1{
+    color: black;
+}
+.log-box{
+    /* background-color: red; */
+    border: 2px solid;
+    width: 622px;
+    height: 439px;
+    position: relative;
+    top: 83px   ;
+    border-color:  hsla(204, 97%, 54%, 1);
+}
+.sign{
+    color: black;
+    font-size: 24px;
+    
+}
+.sign input{
+    width: 237px;
+    height: 40px;
+}
+
+.pass{
+    width: 494px;
+    /* height: ; */
+}
+.tex{
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 20px;
+    /* column-gap:0.1px; */
+    position: relative;
+    right: 40px;
+    
+    font-size: 15px;
+    
+}
+/* **********************footer******************************* */
+footer{
+    background: hsla(0, 0%, 0%, 0.8);
+    width: 100%;
+    height: 389px;
+
+}
+
+.men-foot{
+  
+   display: flex;
+   position: relative;
+   bottom: 80px;
+   left: 600px;
+}
+.text-col{
+    color: rgb(160, 160, 160);
+}
+
+.hr{
+    color: rgb(255, 255, 255);
+    width: 50920px;
+    height: 1px;
+    position: relative;
+    bottom: 90px;
+    /* left: 90px; */
+    /* z-index: 5; */
+
+
+}
+.Inc{
+    position: relative;
+    bottom: 80px;
+    color: rgb(177, 177, 177);
+    right: 150px;
+}
+.Incp{
+    position: relative;
+    bottom: 120px;
+    color: rgb(177, 177, 177);
+    width: 400px;
+    /* right: 500px; */
+    left: 680px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    gap: 20px;
+    /* column-gap:0.1px; */
+    font-size: 15px;
+}
+.icon{
+    /* background-color: red/; */
+    cursor: pointer;
+}
+.icon:hover {
+    color: white;
+    cursor: pointer;
+}
+.t-i{
+    position: relative;
+    cursor: default;
+    top: 10px;
+}
+.t-i:hover{
+    color: rgb(177, 177, 177);
+}
